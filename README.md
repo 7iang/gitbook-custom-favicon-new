@@ -10,13 +10,13 @@ favicon.ico和apple-touch-icon-precomposed-152.png
 
 ### In book.json
 
-* 添加 `custom-favicon` 到 `plugins` 数组中
+* 添加 `custom-favicon-new` 到 `plugins` 数组中
 * 在`pluginsConfig`中配置`favicon`的路径
 
 #### book.json
 ```json
 {
-	"plugins" : ["custom-favicon"],
+	"plugins" : ["custom-favicon-new"],
 	"pluginsConfig" : {
 		"favicon": "path/favicon.ico",
 		"appleTouchIconPrecomposed152": "path/logo.png"
